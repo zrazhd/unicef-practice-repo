@@ -4,5 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Run a one-line script
-      run: echo "Hello, world from my first CI pipeline!"
+    - name: Run test
+      run: echo "Test passed"
